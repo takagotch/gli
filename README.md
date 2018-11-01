@@ -30,6 +30,12 @@ todo help
 todo add "Take out trash"
 todo add "Rake leaves"
 
+gem install gli
+gli init todo list add complete
+
+cd todo
+bundle exec bin/todo help
+bundle exec bin/todo help list
 
 ```
 
@@ -39,6 +45,10 @@ desc 'List tasks'
 long_desc ''
 command :list do |c|
 end
+
+```
+
+```
 
 ```
 
